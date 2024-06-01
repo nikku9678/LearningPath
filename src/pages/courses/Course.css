@@ -1,0 +1,279 @@
+
+
+
+.course{
+    width: 100%;
+    margin: auto;
+
+}
+.course-info{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 20px;
+    
+    
+}
+.course-info .course-left{ 
+ 
+    width: 50%;
+    padding: 5px;
+    
+}
+
+.course-info .course-left h1{ 
+    padding: 5px 0;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    
+}
+.course-info .course-left .desc{ 
+    font-size: 1rem;
+    padding: 5px 0;
+    margin: 0px 0;
+ 
+    width: 100%;
+}
+.course-info .course-left{ 
+    width: 60%;
+    margin: auto;
+    
+}
+.course-info .course-left span{ 
+   font-weight: 600;
+}
+.course-info .course-left p{ 
+    width: 60%;
+    margin: 0;
+    font-size: 1rem;
+
+    
+}
+.course-info .course-right button{ 
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: white;
+   
+    font-size: 1.1rem;
+    background-color: slateblue;
+    border: none;
+    margin: auto;
+    
+}
+.enrollment-status{
+    background-color: green;
+   
+    color: white;
+    width: fit-content;
+    padding: 2px  15px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.course-info .course-right{ 
+    /* border: 2px solid black; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+    gap: 20px;
+
+}
+.course-info .course-right img{ 
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 350px;
+
+}
+.week {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .week-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .week-header p {
+    margin: 0;
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.down {
+    transform: rotate(45deg);
+  }
+  
+  .arrow.up {
+    transform: rotate(-135deg);
+  }
+  
+  .week-content {
+    padding: 10px;
+    background-color: #fff;
+  }
+@media only screen and (max-width:767px){
+    
+.course{
+    width: 100%;
+    margin: auto;
+
+}
+.course-info{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse;
+    padding: 15px 0;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 20px;
+    
+    
+}
+.course-info .course-left{ 
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.course-info .course-left h1{ 
+    padding: 5px 0;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    
+}
+.course-info .course-left .desc{ 
+    font-size: 1rem;
+    padding: 5px 0;
+    margin: 0px 0;
+    /* border: 2px solid green; */
+    width: 100%;
+}
+.course-info .course-left{ 
+    width: 100%;
+    margin: auto;
+    
+}
+.course-info .course-left span{ 
+   font-weight: 600;
+}
+.course-info .course-left p{ 
+    width: 60%;
+    margin: 0;
+    font-size: 1rem;
+
+    
+}
+.course-info .course-right button{ 
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: white;
+   
+    font-size: 1.1rem;
+    background-color: slateblue;
+    border: none;
+    margin: auto;
+    
+}
+.enrollment-status{
+    background-color: green;
+   
+    color: white;
+    width: fit-content;
+    padding: 2px  15px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.course-info .course-right{ 
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 20px;
+
+}
+.course-info .course-right img{ 
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 350px;
+
+}
+.week {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .week-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .week-header p {
+    margin: 0;
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.down {
+    transform: rotate(45deg);
+  }
+  
+  .arrow.up {
+    transform: rotate(-135deg);
+  }
+  
+  .week-content {
+    padding: 10px;
+    background-color: #fff;
+  }
+    .card{
+        width: 90%;
+        margin: auto;
+    }
+}

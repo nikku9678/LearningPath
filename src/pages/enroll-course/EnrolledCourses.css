@@ -1,0 +1,90 @@
+.enrolled-courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  }
+  
+  .course-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .course-card h2 {
+    margin: 0;
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  
+  .course-card button {
+    background-color: #FF4136;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .course-card button:hover {
+    background-color: #FF6347;
+  }
+
+  .enrolled-courses .card {
+
+    position: relative;
+    border: 1px solid #ccc;
+  
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .enrolled-courses .card-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .enrolled-courses .card-info {
+    margin-top: 10px;
+  }
+  
+  .enrolled-courses .progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 10px;
+  }
+  
+  .enrolled-courses .progress {
+    background-color: #4caf50;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .enrolled-courses .btn {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  
+  .enrolled-courses .btn button {
+    /* margin-right: 10px; */
+    padding: 5px 0;
+    font-size: 12px;
+  }
+  
+  .completed {
+    color: green;
+    font-weight: bold;
+  }
+  

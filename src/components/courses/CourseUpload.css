@@ -1,0 +1,49 @@
+/* src/components/CourseUpload.css */
+
+.course-upload-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .course-upload-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .course-upload-form input,
+  .course-upload-form textarea,
+  .course-upload-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .course-upload-form input:focus,
+  .course-upload-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .course-upload-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .course-upload-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .course-upload-form textarea {
+    resize: vertical;
+  }
+  

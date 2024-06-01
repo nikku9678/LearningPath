@@ -1,0 +1,96 @@
+
+.home .home-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+.home .home-name{
+    display: flex;
+    align-items: center;
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-left: 20px;
+}
+.home .search{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.home .all-courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.home{
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card{
+    border: 1px solid #ccc;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FEFCFC;
+    /* border: 1px solid gray; */
+}
+/* .card:hover{
+    scale: 1.05;
+    transition: .5s ease-in-out;
+} */
+
+.card-img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.card-info{
+    width: 100%;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+.card-info h2{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.card-info p{
+    font-size: 13.5px;
+}
+.card .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* border: 2px solid black; */
+}
+.card .btn button{
+    font-size: 13px;
+    padding: 5px 15px;
+    border: 1px solid gold;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:767px){
+    .home .home-name{
+    
+       font-size: 1rem;
+      
+    }
+    .home .search{
+        width: 50%;
+       
+    }
+}
